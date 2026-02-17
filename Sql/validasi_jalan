@@ -1,0 +1,5 @@
+SELECT 
+nama,
+ST_IsValid(geom) AS valid,
+GeometryType(geom) AS tipe
+FROM jalan;
